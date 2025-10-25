@@ -8,7 +8,7 @@ const getSum = () => {
   const price=document.querySelectorAll('.prices');
   prices.forEach(p=>total+=Number(p.textcontent));
   const newrow=document.createElement('tr');
-  newrow.innerHtml=`<td colspan="2"><strong>Total price: Rs ${total}</strong></td>`
+  newrow.innerHtml=`<td colspan="2"><strong>Total price: Rs ${total}</strong></td>`;
   document.querySelector('table').appendChild(newRow);
 };
 
